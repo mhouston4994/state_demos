@@ -1,0 +1,9 @@
+.ColorPicker {
+    align-self: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+}
