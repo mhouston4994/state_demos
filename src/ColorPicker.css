@@ -1,9 +1,14 @@
-.ColorPicker {
-    align-self: auto;
-    display: flex;
-    flex-direction: row;
+.Boxes {
+    display: inline-block;
     flex-flow: wrap;
-    justify-content: center;
-    padding: 40px;
-    margin: 40px;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid gray;
+    background-color:red;
 }
+.Boxes:hover {
+    opacity: .7;
+    transition:  all .25s ease-out;
+} 
